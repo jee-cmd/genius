@@ -1,0 +1,151 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM/3cJUigkdne+gEwZ1vBzU",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/jee-cmd/genius/blob/main/python%20class%20work%20programs\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Danb-RlbDhXx",
+        "outputId": "28d8bfa1-1a90-4929-ca12-ce9a0f76c167"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter first number10\n",
+            "enter second number20\n",
+            "y is greater number\n"
+          ]
+        }
+      ],
+      "source": [
+        "x = int(input(\"enter first number\"))\n",
+        "y = int(input(\"enter second number\"))\n",
+        "if(x<y):\n",
+        "   print(\"y is greater number\")\n",
+        "if(x>y):\n",
+        "    print(\"x is greater numbsr\")\n",
+        "if(x==y):\n",
+        "    print(\"x is equal to y\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = int(input(\"enter first number\"))\n",
+        "y = int(input(\"enter second number\"))\n",
+        "z = int(input(\"enter third number\"))\n",
+        "if(x>y) and (x>z):\n",
+        "   print(\"x is greater number\")\n",
+        "elif(y>x) and (y>z):\n",
+        "   print(\"y is greater\")\n",
+        "else:\n",
+        "   print(\"z is greater number\")\n",
+        "print(\"thank you\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "C_LiPFqgFy7V",
+        "outputId": "5a5c5665-3241-45b5-b824-c59fb26bdedf"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter first number4\n",
+            "enter second number7\n",
+            "enter third number8\n",
+            "z is greater number\n",
+            "thank you\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = int(input(\"enter number\"))\n",
+        "if(x>10) or (x<40):\n",
+        "   print(\"number is between 20 and 40\")\n",
+        "else:\n",
+        "   print(\"number is not defined\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "PhzdYEFwKDHi",
+        "outputId": "8be938db-5b1e-4722-9003-8b0ad7cc1876"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter number35\n",
+            "number is between 20 and 40\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = 10\n",
+        "result = \"x is greater than 5\" if x > 5 else \"x is less than or equal to 5\"\n",
+        "print(result)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "QrpZ0ppFMXNz",
+        "outputId": "520d9d11-8827-4cac-8efd-2f08841a08d3"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "x is greater than 5\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
